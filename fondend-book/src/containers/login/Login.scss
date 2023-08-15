@@ -1,0 +1,277 @@
+.login-wrapper {
+    height          : 100%;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #f5f5fa;
+
+
+    .login-container {
+        width         : 80%;
+        height        : 90%;
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+
+        .login-title {
+            width              : 300px;
+            height             : 100px;
+            background-image   : url('../../assets/images/header/270be9859abd5f5ec5071da65fab0a94.png');
+            background-position: center;
+            background-repeat  : no-repeat;
+            background-size    : contain;
+            margin             : 10px 0;
+        }
+
+        .login-form {
+            width        : 850px;
+            height       : 500px;
+            border-radius: 10px;
+            display      : flex;
+
+            .login-form-left {
+                width        : 64%;
+                height       : 100%;
+                background   : rgb(255, 255, 255);
+                border-radius: 20px 0px 0px 20px;
+
+                .login-form-DN {
+                    margin: 20px;
+
+                    .login-form-DN-title {
+                        h4 {
+                            margin     : 0px 0px 10px;
+                            font-size  : 24px;
+                            font-weight: 500;
+                            text-align : center;
+                        }
+                    }
+
+                    .login-form-input {
+                        margin: 10px 0;
+
+                        .input-password {
+                            position: relative;
+
+                            i {
+                                position : absolute;
+                                right    : 5px;
+                                top      : 25%;
+                                font-size: 16px;
+
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+
+                        }
+
+                        .btn-dangNhap {
+                            margin       : 20px 0;
+                            border       : none;
+                            outline      : none !important;
+                            background   : rgb(255, 66, 78);
+                            width        : 100%;
+                            height       : 40px;
+                            border-radius: 5px;
+                            color        : rgb(255, 255, 255);
+
+                        }
+
+                        .text-info-singin {
+                            margin: 5px 0;
+
+                            span {
+                                color: red;
+                            }
+                        }
+
+                        .text-dangky {
+
+                            span {
+                                float     : right;
+                                text-align: center;
+                                color     : rgb(13, 92, 182);
+                                cursor    : pointer;
+                            }
+                        }
+
+                        .text-login-orther {
+                            margin: 30px 0;
+
+                            p {
+                                width          : 100%;
+                                height         : 1px;
+                                background     : rgb(242, 242, 242);
+                                left           : 0px;
+                                top            : 50%;
+                                z-index        : 1;
+                                display        : flex;
+                                align-items    : center;
+                                justify-content: center;
+
+                                span {
+                                    font-size : 15px;
+                                    color     : rgb(120, 120, 120);
+                                    display   : inline-block;
+                                    background: rgb(255, 255, 255);
+                                    padding   : 0px 20px;
+                                    z-index   : 2;
+                                    text-align: center;
+                                }
+                            }
+                        }
+
+                        .orther-login {
+                            margin         : 5px 0;
+                            height         : 62px;
+                            display        : flex;
+                            justify-content: center;
+                            align-items    : center;
+
+                            .logo-login-fab {
+                                margin             : 0 20px;
+                                height             : 58px;
+                                width              : 58px;
+                                background-position: center;
+                                background-repeat  : no-repeat;
+                                background-size    : contain;
+                                background-image   : url('../../assets/images/login/Facebook_Logo_\(2019\).png');
+
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .logo-login-goo {
+                                height             : 58px;
+                                width              : 58px;
+                                background-position: center;
+                                background-repeat  : no-repeat;
+                                background-size    : contain;
+                                background-image   : url('../../assets/images/login/Google__G__Logo.svg');
+
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+
+                    }
+
+
+                }
+
+                .login-form-DK {
+                    margin: 20px;
+
+                    .login-form-DN-title {
+                        h4 {
+                            margin     : 0px 0px 10px;
+                            font-size  : 24px;
+                            font-weight: 500;
+                            text-align : center;
+                        }
+                    }
+
+                    .login-form-input {
+                        margin: 10px 0;
+
+                        .input-password {
+                            position: relative;
+
+                            i {
+                                position : absolute;
+                                right    : 5px;
+                                top      : 25%;
+                                font-size: 16px;
+
+                                &:hover {
+                                    cursor: pointer;
+                                }
+                            }
+
+                        }
+
+                        .btn-dangNhap {
+                            margin       : 20px 0;
+                            border       : none;
+                            outline      : none !important;
+                            background   : rgb(255, 66, 78);
+                            width        : 100%;
+                            height       : 40px;
+                            border-radius: 5px;
+                            color        : rgb(255, 255, 255);
+
+                        }
+
+                        .text-info-singin {
+                            margin: 5px 0;
+
+                            span {
+                                color: red;
+                            }
+                        }
+
+                        .btn-Backlogin {
+                            margin       : 20px 0;
+                            outline      : none !important;
+                            border       : 1px solid rgb(13, 92, 182);
+                            background   : white;
+                            width        : 100%;
+                            height       : 40px;
+                            border-radius: 5px;
+                            color        : rgb(13, 92, 182);
+                        }
+
+
+
+                    }
+                }
+            }
+
+            .login-form-right {
+                width            : 36%;
+                height           : 100%;
+                background       : linear-gradient(136deg, rgb(240, 248, 255) -1%, rgb(219, 238, 255) 85%);
+                width            : 300px;
+                -webkit-box-align: center;
+                align-items      : center;
+                -webkit-box-pack : center;
+                justify-content  : center;
+                display          : flex;
+                flex-direction   : column;
+                border-radius    : 0px 20px 20px 0px;
+
+                .login-form-logo {
+                    width              : 203px;
+                    height             : 203px;
+                    background-image   : url('../../assets/images/login/25b2ccba8f33a5157f161b6a50f64a60.png');
+                    background-position: center;
+                    background-repeat  : no-repeat;
+                    background-size    : contain;
+
+                }
+
+                .login-form-text-right {
+                    margin    : 30px 0px 0px;
+                    text-align: center;
+
+                    h4 {
+                        margin     : 0px 0px 5px;
+                        color      : rgb(11, 116, 229);
+                        font-size  : 17px;
+                        font-weight: 500;
+                    }
+
+                    span {
+                        font-size  : 13px;
+                        color      : rgb(11, 116, 229);
+                        font-weight: 500;
+                    }
+                }
+            }
+
+        }
+    }
+}
